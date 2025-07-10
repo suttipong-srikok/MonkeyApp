@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run MyMonkeyApp",
+			"command": "dotnet run --project MyMonkeyApp",
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
